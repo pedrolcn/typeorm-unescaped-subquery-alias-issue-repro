@@ -1,0 +1,18 @@
+{
+  "name": "typeorm-escape-subquery-alias-issue",
+  "version": "0.1.0",
+  "description": "Reproduction repository for typeorm unescaped subquery alias",
+  "main": "dist/index.js",
+  "author": "Pedro Nascimento <pedrolcn@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^14.14.20",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "pg": "^8.5.1",
+    "typeorm": "^0.2.29"
+  }
+}
